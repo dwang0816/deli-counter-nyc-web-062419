@@ -7,7 +7,7 @@ def line(places)
     places.each.with_index(1) do |places, index|
     deli_line.push("#{index}. #{places}")
   end
-  puts "The line is currently: #{deli_line.join("")}"
+  puts "The line is currently: #{deli_line.join(" ")}"
   end
 end
 
