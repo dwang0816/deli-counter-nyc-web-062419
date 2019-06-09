@@ -10,3 +10,4 @@ def line(places)
   puts "The line is currently: #{deli_line.join("")}"
   end
 end
+
