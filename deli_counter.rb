@@ -12,4 +12,7 @@ def line(places)
 end
 
 def take_a_number(katz_deli, last)
-  
+  katz_deli.push(last)
+  puts "Welcome, #{last}. You are number #{katz_deli.count} in line."
+end
+
